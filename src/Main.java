@@ -7,7 +7,7 @@ public class Main {
 
 
         try {
-            CurrencyConverter moneyCurrencyConverter = new CurrencyConverter(150.00, 1);
+            CurrencyConverter moneyCurrencyConverter = new CurrencyConverter(150.00, 2);
             System.out.println(moneyCurrencyConverter.formRequest());
             moneyCurrencyConverter.createRequest();
         } catch (IOException error){
